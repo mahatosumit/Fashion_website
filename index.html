@@ -7,7 +7,36 @@
     <title>SILION</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-
+ <style>
+        @media screen and (max-width: 768px) {
+            .box {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .item {
+                width: 100%;
+            }
+            .trend {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .main {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .fot {
+                width: 100%;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            .box {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .trend {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .main {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
 </head>
 
 <body>
